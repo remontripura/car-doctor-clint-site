@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sectionStyle {
+    @apply max-w-7xl mx-auto my-20 px-5
+}
+
+.clip{
+    clip-path:  polygon(5% 0, 95% 0, 100% 100%, 0% 100%);
+}
+
+.list-style {
+    @apply flex justify-between items-center p-3 rounded hover:bg-[#FF3811] hover:text-white font-bold transition duration-500
+}
+
+.button-style{
+    @apply px-4 py-2 bg-[#FF3811] rounded
+}
